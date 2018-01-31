@@ -1,0 +1,19 @@
+body {
+	background-image: url("http://ak1.picdn.net/shutterstock/videos/9706811/thumb/1.jpg");
+	text-align: center;
+	background-size: 100%;
+}
+
+p 
+{
+	padding-left: 10px;
+}
+
+img
+{
+	width:150pt;
+	height: 250pt;
+}
+
+
+
