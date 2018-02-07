@@ -1,11 +1,19 @@
+<script>
+alert("Entering the world of Gabi");
+</script><p id="demo"></p>
+<script>
+document.getElementById("demo").innerHTML = Date();
+</script>
 <html>
 	<head>
-		<title>Gabrielle Campbell </title>
-		<link rel="stylesheet" type="text/css" href="style.css" />
+  <h1 class="ml2">Hi my name is Gabrielle Campbell </h1>
+
+
+			<link rel="stylesheet" type="text/css" href="style.css" />
 	</head>
 	<body>
-				<h1>Hi my name is Gabrielle Campbell </h1>
-				<h2>but everyone calls me Gabi</h2>
+				
+				<h1>but everyone calls me Gabi</h1>
 				<br>
 				<img src= "file:///Users/gabi/Desktop/IMG_4702.JPG">
 			</br>
@@ -14,7 +22,15 @@
 <h1>Ella & Gia</h1>
 </br>
 <br>
-				<img src="file:///Users/gabi/Desktop/IMG_4645.JPG">
+				<img src="file:///Users/gabi/Desktop/IMG_4645.JPG"> 
+				<script>
+    function pictureChange()
+    {
+          document.getElementById("theImage").src="file:///Users/gabi/Downloads/IMG_4581.JPG";
+    }
+</script>
+<img id="theImage">
+<p><input type="button" id="theButton" value="How cute click me for another picture!" onclick="pictureChange()"></p>
 				<br></br>
 				<b>Ella (the Morkie) is 6 months old and Gia (the Chihuahua) is 2 years old.</b>
 				</br>
@@ -28,4 +44,5 @@
 				 </p>
 		
 	</body>
-</html>
+	</html>
+

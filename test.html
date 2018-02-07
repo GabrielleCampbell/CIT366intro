@@ -1,0 +1,50 @@
+ <!---<!DOCTYPE html>
+<html>
+<head>
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+</head>
+<body>
+<p id="demo">A Paragraph.</p>
+<button type="button" onclick="myFunction()">Try it</button>
+</body>
+<head>
+	<script> 
+		function showAlert() {
+			alert(“You clicked on me”);
+		}
+	</script>
+</head>
+<body>
+	<button onclick=“showAlert()”>Bet you can’t guess what happens when you click on me </button>
+</body>
+
+</html>
+<html>
+<head>
+    <script>
+	var favBand = “Grateful Dead”;
+	window.onload = function secretMessage() {
+	     console.log(“My favorite band is “ + favBand”);
+	}	
+   </script>
+</head>
+<body>
+</body>
+</html>-->
+<head>
+	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>	<script>
+		$(“#clickme”).click(function(){
+			$(“#SusanStorm”).toggle(); 
+		});
+	</script>
+</head>
+<body>
+	<div id=“clickme”>Show or Hide</div>
+	<img id=“SusanStorm” src=“img/SusanStorm.jpg” />
+</body>
+
+
